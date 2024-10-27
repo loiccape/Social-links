@@ -1,0 +1,32 @@
+:root {
+    --grey-900 : #141414;
+    --grey-800 : #1F1F1F;
+    --grey-700: #333333;
+
+    --green : #C4F82A;
+
+    --White : #FFFFFF;
+
+}
+
+/* Typography */
+.typoOne{
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.typoTwo{
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.typoTree{
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
