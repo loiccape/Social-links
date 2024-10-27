@@ -52,6 +52,7 @@ body{
 }
 
 main{
+    
     background-color: var(--grey-800);
     border-radius: 12px;
     display: flex;
@@ -110,4 +111,18 @@ ul>*:hover{
     color: var(--grey-700);
     cursor: pointer;
     font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    main{
+        max-width: 456px;
+    }
+}
+
+@media(min-width: 1024px){
+
+    main{
+        max-width: 384px;
+    }
 }
