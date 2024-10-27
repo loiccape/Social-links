@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 :root {
     --grey-900 : #141414;
     --grey-800 : #1F1F1F;
@@ -5,7 +11,7 @@
 
     --green : #C4F82A;
 
-    --White : #FFFFFF;
+    --white : #FFFFFF;
 
 }
 
@@ -14,7 +20,7 @@
     font-size: 1.5rem;
     line-height: 150%;
     letter-spacing: 0px;
-    font-weight: bold;
+    font-weight:bold;
 }
 
 .typoTwo{
@@ -28,5 +34,72 @@
     line-height: 150%;
     letter-spacing: 0px;
     font-weight: bold;
+}
+
+
+
+body{
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+    font-family: "inter";
+}
+
+main{
+    background-color: var(--grey-800);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 327px;
+    padding: 24px;
+}
+
+img{
+    width: 88px;
+    border-radius: 100%;
+    margin-top: 24px;
+}
+
+
+.nameLocation :first-child{
+   
+    margin: 24px 0 0 0;
+}
+.nameLocation :last-child{
+    margin: 0 0 24px 0;
+    color: var(--green);
+    font-weight: bold;
+}
+
+
+main p {
+    margin: 0;
+    font-weight: 300;
+}
+
+main ul{
+    margin-top: 24px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0;
+}
+
+ul>*{
+    background-color: var(--grey-700);
+    border-radius: 8px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
